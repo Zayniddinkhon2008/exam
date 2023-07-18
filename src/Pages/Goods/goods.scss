@@ -1,0 +1,30 @@
+.goods-heading-box {
+  position: absolute;
+  top: 120px;
+  left: 137px;
+  width: 87%;
+  .goods-box {
+    border-radius: 12px;
+    background: #fff;
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+
+  .goods-bottom-box {
+    background: #eeeef5;
+    height: 50px;
+    .goods-new-btn {
+      border-radius: 6px;
+      background: #1bc58d;
+      padding: 10px 20px;
+      border: none;
+      color: #fff;
+      font-family: Mulish;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 800;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+  }
+}

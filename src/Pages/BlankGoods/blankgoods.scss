@@ -1,0 +1,42 @@
+.BlankGoods-box {
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  width: 87%;
+  margin: auto;
+  left: 137px;
+  flex-direction: column;
+  .BlankGoods-heading {
+    color: #212121;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72%;
+    margin-top: 30px;
+    margin-bottom: 64px;
+  }
+  .BlankGoods-btn {
+    border-radius: 6px;
+    background: #1bc58d;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 24px 14px 24px;
+    align-items: flex-start;
+    gap: 19px;
+    margin-top: 66px;
+    margin-bottom: 90px;
+  }
+}
